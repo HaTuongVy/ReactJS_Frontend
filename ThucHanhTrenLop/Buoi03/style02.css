@@ -1,0 +1,18 @@
+table{
+    border-spacing: 10px;
+    border-collapse: collapse;
+}
+
+table td, table th{
+    border: 1px solid black;
+    
+}
+
+table caption{
+    caption-side: top;
+    text-align: center;
+}
+
+#colNumber{
+    background-color: aquamarine;
+}

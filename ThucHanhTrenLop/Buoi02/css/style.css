@@ -1,0 +1,29 @@
+/* p{
+    color: blue !important;
+    font-style: italic;
+} */
+
+/* body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1#intro{
+    color: gray;
+    text-decoration: underline;
+}
+
+p.title{
+    font-style: italic;
+    color: antiquewhite;
+} */
+
+#content{
+    font-size: 20px;
+}
+
+#content p{
+    font-size: 2rem;
+}
+
+#content small{
+    font-size: 2rem;
+}

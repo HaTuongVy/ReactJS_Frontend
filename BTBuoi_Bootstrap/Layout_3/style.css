@@ -1,0 +1,25 @@
+.text-color__main{
+    color: aqua;
+}
+
+.bg-color__main{
+    background-color: aqua;
+}
+
+.font-size__icon{
+    font-size: 70px;
+}
+
+.font-text__pcm{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(13, 144, 142);
+}
+
+.bg-color__LEO{
+    background-color: rgb(13, 144, 142);
+}
+
+.bg-cardone__gray{
+    background-color: rgb(232, 232, 232);
+}

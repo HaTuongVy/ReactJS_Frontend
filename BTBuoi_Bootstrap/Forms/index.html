@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image 02</title>
+    <link rel="stylesheet" href="../../plugins/bootstrap/css/bootstrap.min.css">
+    <style>
+        /* .border-color{
+            border-top: 5px;
+            border-style: solid;
+            border-color: rgb(7, 88, 111);
+        } */
+    </style>
+    <!-- Author:  Tường Vy
+    Date:    19/12/2022 -->
+</head>
+<body class="bg-info">
+    <div class="container">
+        <div class="row justify-content-center py-4">
+            <div class="col-md-10 col-lg-8">
+                <form action="" class="bg-white border border-2 rounded">
+                    <fieldset class=" ">
+                        <legend class="m-3">Đăng ký thông tin</legend>
+                        <hr/>
+                        <div class="ms-5 me-5 mt-3 mb-3">
+                            <div class="mb-3 row">
+                                <label for="staticEmail" class="col-sm-3 col-form-label">Họ và tên thí sinh (ghi đầy đủ dấu tiếng Việt) <span class="text-danger">*</span></label>
+                                <div class="col-sm-9">
+                                    <input type="text" class="form-control is-invalid" id="inputName">
+                                </div>
+                            </div>
+                            <div class="mb-3 row">
+                                <label for="inputPassword" class="col-sm-3 col-form-label">CMND<span class="text-danger">*</span></label>
+                                <div class="col-sm-9">
+                                  <input type="text" class="form-control is-invalid" id="inputID">
+                                </div>
+                            </div>
+                            <div class="row row-cols-1 row-cols-lg-4 mb-3 g-3">
+                                <label for="inputPassword" class="col-sm-3 col-form-label">Ngày sinh<span class="text-danger">*</span></label>
+                                <div class="col">
+                                    <select class="form-select is-invalid" aria-label="Ngay">
+                                        <option selected>Ngày</option>
+                                        <option value="1">01</option>
+                                        <option value="2">02</option>
+                                        <option value="3">03</option>
+                                    </select>
+                                </div>
+                                <div class="col">
+                                    <select class="form-select is-invalid" aria-label="Ngay">
+                                        <option selected>Tháng</option>
+                                        <option value="1">01</option>
+                                        <option value="2">02</option>
+                                        <option value="3">03</option>
+                                    </select>
+                                </div>
+                                <div class="col"> 
+                                    <select class="form-select is-invalid" aria-label="Ngay">
+                                        <option selected>1996</option>
+                                        <option value="1">1997</option>
+                                        <option value="2">1998</option>
+                                        <option value="3">1999</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label for="inputPassword" class="col-sm-3 col-form-label">Giới tính<span class="text-danger">*</span></label>
+                                <div class="col-sm pt-2">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input is-invalid" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                        <label class="form-check-label" for="flexRadioDefault1">
+                                          Nam
+                                        </label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input is-invalid" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                        <label class="form-check-label" for="flexRadioDefault2">
+                                          Nữ
+                                        </label>
+                                    </div>
+                                </div>                               
+                            </div>
+                            <div class="mb-3 row">
+                                <label for="staticEmail" class="col-sm-3 col-form-label">Email <span class="text-danger">*</span></label>
+                                <div class="col-sm-9">
+                                  <input type="email" class="form-control is-invalid" id="staticEmail">
+                                </div>
+                            </div>
+                            <div class="mb-3 row">
+                                <label for="inputPassword" class="col-sm-3 col-form-label">Điện thoại liên lạc <span class="text-danger">*</span></label>
+                                <div class="col-sm-9">
+                                  <input type="tel" class="form-control is-invalid" id="inputtel">
+                                </div>
+                            </div>
+                            <div class="mb-3 row">
+                                <label for="inputPassword" class="col-sm-3 col-form-label">Địa chỉ nhận giấy báo trúng tuyển <span class="text-danger">*</span></label>
+                                <div class="col-sm-9">
+                                    <textarea class="form-control is-invalid" rows="5" id="comment" name="text"></textarea>
+                                </div>
+                            </div>
+                            <div class="mb-3 row">
+                                <label for="inputPassword" class="col-sm-3 col-form-label">Tỉnh/Thành phố lớp 12</label>
+                                <div class="col-sm-9">
+                                    <select class="form-select" aria-label="Tinh">
+                                        <option selected>Thành phố Hồ Chí Minh</option>
+                                        <option value="1">Hà Nội</option>
+                                        <option value="2">Bình Định</option>
+                                        <option value="3">Vũng Tàu</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="mb-3 row">
+                                <label for="inputPassword" class="col-sm-3 col-form-label">Quận/Huyện lớp 12</label>
+                                <div class="col-sm-9">
+                                    <select class="form-select" aria-label="Quan">
+                                        <option selected>Quận 1</option>
+                                        <option value="1">Quận 2</option>
+                                        <option value="2">Phù Cát</option>
+                                        <option value="3">Bình Thạnh</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="mb-3 row">
+                                <label for="inputPassword" class="col-sm-3 col-form-label">Chọn trường lớp 12</label>
+                                <div class="col-sm-9">
+                                    <select class="form-select" aria-label="Truong">
+                                        <option selected>Chọn trường</option>
+                                        <option value="1">Phù Mỹ 1</option>
+                                        <option value="2">Chu Văn An</option>
+                                        <option value="3">Lê Quý Đôn</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="mb-3 row">
+                                <label for="staticEmail" class="col-sm-3 col-form-label">Năm tốt nghiệp</label>
+                                <div class="col-sm-2">
+                                  <input type="text" class="form-control" id="staticEmail">
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <button class="btn btn-danger col-lg-1 col-sm-2">Gửi hồ sơ</button>
+                                </div>
+                            </div>
+                        </div>
+                      </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="../../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
